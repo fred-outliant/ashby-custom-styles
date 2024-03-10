@@ -1,2 +1,32 @@
+/* @import url("https://use.typekit.net/mhh8git.js"); */
+@import url("https://assets-global.website-files.com/62a059f7c3b9147ea6a4afb2/css/outliant.75fb02331.min.css");
+
+@font-face {
+  /*font-family: "aktiv-grotesk-extended";  font-display: optional;
+  font-family: "aktiv-grotesk-extended"; font-display: optional;
+  font-family: 'Anonymous Pro Bold'; font-display: optional;
+  font-family: 'Anonymous Pro 400'; font-display: optional;
+  font-family: 'Aktiv Grotesk EX'; font-display: optional;*/
+  font-family: 'Fakt Pro 400'; font-display: optional;
+  font-family: 'Fakt Pro 300'; font-display: optional;
+  font-family: 'Fakt Pro 500'; font-display: optional;
+  font-family: 'Fakt 700 Bold'; font-display: optional; 
+}
+
 .ashby-application-form-container{ background:#212228; }
-.ashby-application-form-container input{ border:0; border-bottom:1px solid white; color: #A6A7A9; }
+.ashby-application-form-container input{ 
+  border:0; 
+  border-bottom:1px solid white; 
+  border-radius:0;
+  color: #A6A7A9; 
+  font-family: "Fakt Pro 400";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+}
+
+
+
+
+
