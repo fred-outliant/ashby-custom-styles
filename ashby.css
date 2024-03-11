@@ -65,7 +65,7 @@
   line-height: 32px;
   order: 2;
 } 
-.ashby-application-form-field-entry label:focus-within{
+.ashby-application-form-field-entry:focus-within label{
   top:-10px;
   z-index:-1;
   display: none;
