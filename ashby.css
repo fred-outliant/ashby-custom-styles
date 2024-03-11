@@ -18,7 +18,6 @@
 .ashby-application-form-section-header h2 {
   color: #FFF;
   text-align: center;
-  font-family: "aktiv-grotesk-extended,sans-serif";
   font-size: 46px;
   font-style: normal;
   font-weight: 700;
@@ -31,8 +30,19 @@
 }
 .ashby-application-form-field-entry {
   position: relative;
+  display: flex;
+  flex-direction: column;
 } 
 
+.ashby-application-form-question-description {
+  order: 3;
+}
+.ashby-application-form-field-entry input {
+  order: 1;
+}
+.ashby-application-form-field-entry label {
+  order: 2;
+}
 .ashby-application-form-field-entry input{ 
   border:0; 
   border-bottom:1px solid white; 
@@ -43,4 +53,17 @@
   font-style: normal;
   font-weight: 300;
   line-height: 32px;
+}
+
+.ashby-application-form-field-entry label {
+  position: absolute;
+  pointer-events: none;
+  left: 10px;
+  top: 2px;
+  transition: 0.2s ease all;
+  font-size: 15px;
+}
+.ashby-application-form-field-entry input:focus ~ label{
+  top:-10px;
+  font-size:12px;
 }
