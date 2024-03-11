@@ -1,16 +1,29 @@
-/* @import url("https://use.typekit.net/mhh8git.js"); */
+@import url("https://use.typekit.net/mhh8git.js");
 @import url("https://assets-global.website-files.com/62a059f7c3b9147ea6a4afb2/css/outliant.75fb02331.min.css");
 
 @font-face {
-  /*font-family: "aktiv-grotesk-extended";  font-display: optional;
+  font-family: "aktiv-grotesk-extended";  font-display: optional;
   font-family: "aktiv-grotesk-extended"; font-display: optional;
   font-family: 'Anonymous Pro Bold'; font-display: optional;
   font-family: 'Anonymous Pro 400'; font-display: optional;
-  font-family: 'Aktiv Grotesk EX'; font-display: optional;*/
+  font-family: 'Aktiv Grotesk EX'; font-display: optional;
   font-family: 'Fakt Pro 400'; font-display: optional;
   font-family: 'Fakt Pro 300'; font-display: optional;
   font-family: 'Fakt Pro 500'; font-display: optional;
   font-family: 'Fakt 700 Bold'; font-display: optional; 
+}
+.ashby-application-form-autofill-pane{ display: none !important; }
+
+.ashby-application-form-section-header {border-bottom: 0;}
+.ashby-application-form-section-header h2 {
+  color: #FFF;
+  text-align: center;
+  font-family: "aktiv-grotesk-extended,sans-serif";
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -1.5px; 
 }
 
 .ashby-application-form-container { 
@@ -25,7 +38,7 @@
   border-bottom:1px solid white; 
   border-radius:0;
   color: #A6A7A9; 
-  font-family: "Fakt Pro 400";
+  font-family: "Fakt Pro 300";
   font-size: 18px;
   font-style: normal;
   font-weight: 300;
