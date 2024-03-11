@@ -50,8 +50,12 @@
 }
 
 .ashby-application-form-question-description ul {
-  margin-left:0;
+  margin-left:12px;
 } 
+
+.ashby-application-form-question-description ul li {
+  margin-bottom: 0;
+}
 
 
 .ashby-application-form-field-entry input,
