@@ -63,7 +63,7 @@
   font-weight: 300;
   line-height: 32px;
 }
-.ashby-application-form-field-entry input:focus ~ label{
+.ashby-application-form-field-entry input:focus:has(~ label) {
   top:-10px;
   z-index:-1;
   display: none;
