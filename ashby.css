@@ -181,5 +181,7 @@ button[class*=' _primary_'] {
   line-height: 2.24rem;
   text-decoration: none;
   display: inline-block;
-  
+  width:260px;
+  height: 100px;
+  margin: 0 auto;
 }
