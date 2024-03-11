@@ -37,12 +37,7 @@
 .ashby-application-form-question-description {
   order: 3;
 }
-.ashby-application-form-field-entry input {
-  order: 1;
-}
-.ashby-application-form-field-entry label {
-  order: 2;
-}
+
 .ashby-application-form-field-entry input{ 
   border:0; 
   border-bottom:1px solid white; 
@@ -71,4 +66,5 @@
 .ashby-application-form-field-entry input:focus ~ label{
   top:-10px;
   z-index:-1;
+  display: none;
 }
