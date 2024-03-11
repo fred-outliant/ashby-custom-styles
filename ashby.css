@@ -84,15 +84,6 @@
   border-bottom-color: #DEF858 !important;
 }
 
-.ashby-application-form-container fieldset label.ashby-application-form-question-title {
-  color: #A6A7A9; 
-  font-family: "Fakt Pro 300";
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 32px;
-}
-
 .ashby-application-form-field-entry label {
   position: absolute;
   pointer-events: none;
@@ -134,4 +125,23 @@
 .ashby-application-form-field-entry textarea:not(:focus):-ms-input-placeholder {
   /* Internet Explorer 10+ */
   color: transparent;
+}
+
+div[class^='_option_'] span{
+  background-color: transparent !important;
+  border-color: #DEF858 !important;
+}
+
+div[class^='_option_'] svg {
+  fill: #DEF858 !important;
+}
+
+.ashby-application-form-container fieldset label.ashby-application-form-question-title,
+div[class^='_option_'] label {
+  color: #A6A7A9; 
+  font-family: "Fakt Pro 300";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
 }
