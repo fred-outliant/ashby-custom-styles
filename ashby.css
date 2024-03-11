@@ -136,7 +136,7 @@ div[class^='_option_'] span[class*=' _checked_']{
   background-color: transparent !important;
   border-color: #DEF858 !important;
 }
-div[class^='_option_'] span[class*=' _checked_'] > span{
+div[class^='_option_'] span[class^=' _checked_'] > span{
   background-color: #DEF858 !important;
 }
 div[class^='_option_'] span[class*=' _checked_'] svg {
@@ -153,11 +153,11 @@ div[class^='_option_'] label {
   line-height: 32px;
 }
 
-button[class*=' _secondary_'] {
+button[class^=' _secondary_'] {
   color: #DEF858 !important;
   border-color: #DEF858 !important;
 }
 
-button[class*=' _secondary_'] svg {
+button[class^=' _secondary_'] svg {
   color: #DEF858 !important;
 }
