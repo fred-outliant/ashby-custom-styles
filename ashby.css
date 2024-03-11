@@ -38,7 +38,8 @@
   order: 3;
   
 }
-.ashby-application-form-question-description p{
+.ashby-application-form-question-description p, 
+.ashby-application-form-question-description code {
   color: #A6A7A9;
   font-family: "Fakt Pro 300";
   font-size: 12px;
@@ -47,6 +48,10 @@
   line-height: 20px;
   margin-top: 13px;
 }
+
+.ashby-application-form-question-description ul {
+  margin-left:0;
+} 
 
 
 .ashby-application-form-field-entry input,
@@ -73,6 +78,15 @@
 .ashby-application-form-field-entry textarea:focus {
   outline-color: transparent !important;
   border-bottom-color: #DEF858 !important;
+}
+
+.ashby-application-form-container fieldset label.ashby-application-form-question-title {
+  color: #A6A7A9; 
+  font-family: "Fakt Pro 300";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
 }
 
 .ashby-application-form-field-entry label {
