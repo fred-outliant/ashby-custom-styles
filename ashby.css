@@ -76,7 +76,7 @@
 } 
 .ashby-application-form-field-entry:focus-within label, 
 .ashby-application-form-field-entry input:focus ~ label, 
-.ashby-application-form-field-entry input:focus + label{
+.ashby-application-form-field-entry input:valid + label{
   top:-10px;
   z-index:-1;
   display: none;
