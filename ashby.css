@@ -171,17 +171,18 @@ button[class*=' _primary_'] {
   text-align: center;
   cursor: pointer;  
   display: block;
-  width:260px;
-  height: 100px;
+  width: 300px;
+  height: 120px;
   margin: 0 auto;
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: center;
 }
 
 button[class*=' _primary_'] span{
   letter-spacing: -.09375rem;
   padding: .75rem 0;
-  font-family: aktiv-grotesk-extended,sans-serif;
+  font-family: "aktiv-grotesk-extended";
   font-size: 1.75rem;
   font-weight: 700;
   line-height: 2.24rem;
