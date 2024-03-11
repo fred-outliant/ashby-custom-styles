@@ -153,11 +153,11 @@ div[class^='_option_'] label {
   line-height: 32px;
 }
 
-button[class*=' secondary'] {
+button[class*=' _secondary_'],button[class^=' _secondary_'] {
   color: #DEF858 !important;
   border-color: #DEF858 !important;
 }
 
-button[class*=' secondary'] svg {
+button[class*=' _secondary_'] svg, button[class^=' _secondary_'] svg {
   color: #DEF858 !important;
 }
