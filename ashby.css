@@ -152,3 +152,12 @@ div[class^='_option_'] label {
   font-weight: 300;
   line-height: 32px;
 }
+
+button span[class*=' _secondary_'] {
+  color: #DEF858 !important;
+  border-color: #DEF858 !important;
+}
+
+button span[class*=' _secondary_'] svg {
+  color: #DEF858 !important;
+}
