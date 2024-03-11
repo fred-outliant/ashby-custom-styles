@@ -166,7 +166,7 @@ button[class*=' _primary_'] {
   background-color: transparent !important;
   background-image: url(https://fred-outliant.github.io/ashby-custom-styles/ellipse-green.svg);
   z-index: 11;
-  border-bottom: 0px none var(--white);
+  border-color:transparent !important;
   color: #fff;
   text-align: center;
   cursor: pointer;  
@@ -188,6 +188,11 @@ button[class*=' _primary_'] span{
   line-height: 2.24rem;
   text-decoration: none;
   display: inline-block;
+}
+
+button[class*=' _primary_']:hover {
+  border: none !important;
+  border-color:transparent !important;
 }
 
 button[class*=' _primary_'] svg{
