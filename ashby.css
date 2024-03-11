@@ -45,11 +45,12 @@
   font-style: normal;
   font-weight: 300;
   line-height: 20px;
-
+  margin-top: 13px;
 }
 
 
-.ashby-application-form-field-entry input{ 
+.ashby-application-form-field-entry input,
+.ashby-application-form-field-entry textarea{ 
   border:0; 
   border-bottom:1px solid white; 
   border-radius:0;
@@ -66,7 +67,10 @@
 
 .ashby-application-form-field-entry input:hover,
 .ashby-application-form-field-entry input:focus-within,
-.ashby-application-form-field-entry input:focus {
+.ashby-application-form-field-entry input:focus,
+.ashby-application-form-field-entry textarea:hover,
+.ashby-application-form-field-entry textarea:focus-within,
+.ashby-application-form-field-entry textarea:focus {
   outline-color: transparent !important;
   border-bottom-color: #DEF858 !important;
 }
@@ -86,25 +90,30 @@
   order: 2;
 } 
 .ashby-application-form-field-entry:focus-within label,  
-.ashby-application-form-field-entry:has(input:not(:placeholder-shown)) label{
+.ashby-application-form-field-entry:has(input:not(:placeholder-shown)) label,  
+.ashby-application-form-field-entry:has(textarea:not(:placeholder-shown)) label{
   top:-10px;
   z-index:-1;
   display: none;
 }
 
-.ashby-application-form-field-entry input:not(:focus)::-webkit-input-placeholder {
+.ashby-application-form-field-entry input:not(:focus)::-webkit-input-placeholder,
+.ashby-application-form-field-entry textarea:not(:focus)::-webkit-input-placeholder {
   /* WebKit browsers */
   color: transparent;
 }
-.ashby-application-form-field-entry input:not(:focus):-moz-placeholder {
+.ashby-application-form-field-entry input:not(:focus):-moz-placeholder,
+.ashby-application-form-field-entry textarea:not(:focus):-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
   color: transparent;
 }
-.ashby-application-form-field-entry input:not(:focus)::-moz-placeholder {
+.ashby-application-form-field-entry input:not(:focus)::-moz-placeholder,
+.ashby-application-form-field-entry textarea:not(:focus)::-moz-placeholder {
   /* Mozilla Firefox 19+ */
   color: transparent;
 }
-.ashby-application-form-field-entry input:not(:focus):-ms-input-placeholder {
+.ashby-application-form-field-entry input:not(:focus):-ms-input-placeholder,
+.ashby-application-form-field-entry textarea:not(:focus):-ms-input-placeholder {
   /* Internet Explorer 10+ */
   color: transparent;
 }
