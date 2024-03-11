@@ -48,6 +48,7 @@
   font-style: normal;
   font-weight: 300;
   line-height: 32px;
+  order: 1;
 }
 
 .ashby-application-form-field-entry label {
@@ -62,6 +63,7 @@
   font-style: normal;
   font-weight: 300;
   line-height: 32px;
+  order: 2;
 }
 .ashby-application-form-field-entry input:focus + label {
   top:-10px;
