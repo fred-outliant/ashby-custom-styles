@@ -169,11 +169,17 @@ button[class*=' _primary_'] {
   border-bottom: 0px none var(--white);
   color: #fff;
   text-align: center;
-  letter-spacing: -.09375rem;
   cursor: pointer;  
-  justify-content: center;
-  align-items: center;
-  margin-top: -1.5rem;
+  display: block;
+  width:260px;
+  height: 100px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+button[class*=' _primary_'] span{
+  letter-spacing: -.09375rem;
   padding: .75rem 0;
   font-family: aktiv-grotesk-extended,sans-serif;
   font-size: 1.75rem;
@@ -181,7 +187,8 @@ button[class*=' _primary_'] {
   line-height: 2.24rem;
   text-decoration: none;
   display: inline-block;
-  width:260px;
-  height: 100px;
-  margin: 0 auto;
+}
+
+button[class*=' _primary_'] svg{
+  display: none !important;
 }
