@@ -75,7 +75,7 @@
   order: 2;
 } 
 .ashby-application-form-field-entry:focus-within label, 
-.ashby-application-form-field-entry input:focus ~ label, 
+.ashby-application-form-field-entry input:not(:placeholder-shown) ~ label, 
 .ashby-application-form-field-entry input:valid + label{
   top:-10px;
   z-index:-1;
