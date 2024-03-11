@@ -13,8 +13,22 @@
   font-family: 'Fakt 700 Bold'; font-display: optional; 
 }
 
-.ashby-application-form-container{ background:#212228; }
-.ashby-application-form-container input{ 
+.ashby-application-form-container { 
+  background:#212228; 
+}
+.ashby-application-form-field-entry {
+  position: relative;
+} 
+.ashby-application-form-field-entry label {
+  position: absolute;
+  pointer-events: none;
+  left: 10px;
+  top: 2px;
+  transition: 0.2s ease all;
+  font-size: 15px;
+}
+
+.ashby-application-form-field-entry input{ 
   border:0; 
   border-bottom:1px solid white; 
   border-radius:0;
@@ -24,4 +38,9 @@
   font-style: normal;
   font-weight: 300;
   line-height: 32px;
+}
+
+.ashby-application-form-field-entry input:focus ~ label{
+  top:-10px;
+  font-size:12px;
 }
