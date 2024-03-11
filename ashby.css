@@ -53,6 +53,12 @@
   padding-bottom: 13px;
 }
 
+.ashby-application-form-field-entry input:focus-within,
+.ashby-application-form-field-entry input:focus {
+  outline-color: transparent;
+  border-bottom-color: #DEF858;
+}
+
 .ashby-application-form-field-entry label {
   position: absolute;
   pointer-events: none;
