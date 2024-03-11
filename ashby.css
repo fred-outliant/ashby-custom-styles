@@ -49,12 +49,14 @@
   font-weight: 300;
   line-height: 32px;
   order: 1;
+  padding: 0;
+  padding-bottom: 13px;
 }
 
 .ashby-application-form-field-entry label {
   position: absolute;
   pointer-events: none;
-  left: 10px;
+  left: 0px;
   top: 2px;
   transition: 0.2s ease all;
   color: #A6A7A9; 
@@ -69,4 +71,21 @@
   top:-10px;
   z-index:-1;
   display: none;
+}
+
+.ashby-application-form-field-entry input:not(:focus)::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: transparent;
+}
+.ashby-application-form-field-entry input:not(:focus):-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: transparent;
+}
+.ashby-application-form-field-entry input:not(:focus)::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: transparent;
+}
+.ashby-application-form-field-entry input:not(:focus):-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: transparent;
 }
