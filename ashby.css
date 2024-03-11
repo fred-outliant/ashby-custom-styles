@@ -19,14 +19,6 @@
 .ashby-application-form-field-entry {
   position: relative;
 } 
-.ashby-application-form-field-entry label {
-  position: absolute;
-  pointer-events: none;
-  left: 10px;
-  top: 2px;
-  transition: 0.2s ease all;
-  font-size: 15px;
-}
 
 .ashby-application-form-field-entry input{ 
   border:0; 
@@ -38,9 +30,4 @@
   font-style: normal;
   font-weight: 300;
   line-height: 32px;
-}
-
-.ashby-application-form-field-entry input:focus ~ label{
-  top:-10px;
-  font-size:12px;
 }
