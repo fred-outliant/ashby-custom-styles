@@ -159,5 +159,27 @@ button[class*=' _secondary_'],button[class^=' _secondary_'] {
 }
 
 button[class*=' _secondary_'] svg, button[class^=' _secondary_'] svg {
-  color: #DEF858 !important;
+  fill: #DEF858 !important;
+}
+
+button[class*=' _primary_'] {
+  background-color: transparent !important;
+  background-image: url(https://fred-outliant.github.io/ashby-custom-styles/ellipse-green.svg);
+  z-index: 11;
+  border-bottom: 0px none var(--white);
+  color: #fff;
+  text-align: center;
+  letter-spacing: -.09375rem;
+  cursor: pointer;  
+  justify-content: center;
+  align-items: center;
+  margin-top: -1.5rem;
+  padding: .75rem 0;
+  font-family: aktiv-grotesk-extended,sans-serif;
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 2.24rem;
+  text-decoration: none;
+  display: inline-block;
+  
 }
