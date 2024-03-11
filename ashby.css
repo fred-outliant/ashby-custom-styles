@@ -129,10 +129,15 @@
 
 div[class^='_option_'] span{
   background-color: transparent !important;
+  border-color: #A6A7A9 !important;
+}
+
+div[class^='_option_'] span[class^='_checked_']{
+  background-color: transparent !important;
   border-color: #DEF858 !important;
 }
 
-div[class^='_option_'] svg {
+div[class^='_option_'] svg[class^='_checked_'] {
   fill: #DEF858 !important;
 }
 
