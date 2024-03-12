@@ -22,6 +22,9 @@
 .ashby-application-form-container { 
   background:#212228; 
 }
+.ashby-application-form-container fieldset {
+  margin-bottom: 3.5rem !important;
+}
 .ashby-application-form-field-entry {
   position: relative;
   display: flex;
