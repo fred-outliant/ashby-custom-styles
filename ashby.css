@@ -104,6 +104,13 @@
   display: none;
 }
 
+label[for="_systemfield_resume"] {
+  display: block !important;
+  position: relative !important;
+  z-index: 1 !important;
+  order: 1 !important;
+}
+
 .ashby-application-form-field-entry input:not(:focus)::-webkit-input-placeholder,
 .ashby-application-form-field-entry textarea:not(:focus)::-webkit-input-placeholder {
   /* WebKit browsers */
