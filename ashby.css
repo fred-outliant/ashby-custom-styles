@@ -149,6 +149,8 @@ div[class^='_option_'] label {
   font-style: normal;
   font-weight: 300;
   line-height: 32px;
+  margin-top: 0 !important;
+  margin-left: 13px !important;
 }
 
 button[class*=' _secondary_'],button[class^=' _secondary_'] {
