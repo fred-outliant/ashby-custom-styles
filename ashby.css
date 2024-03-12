@@ -26,6 +26,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
+  margin-bottom: 3.5rem;
 } 
 
 .ashby-application-form-question-description {
@@ -176,7 +177,7 @@ button[class*=' _primary_'] {
 button[class*=' _primary_'] span{
   letter-spacing: -.09375rem;
   padding: .75rem 0;
-  font-family: "aktiv-grotesk-extended";
+  
   font-size: 1.75rem;
   font-weight: 700;
   line-height: 2.24rem;
@@ -189,6 +190,6 @@ button[class*=' _primary_']:hover {
   border-color:transparent !important;
 }
 
-button[class*=' _primary_'] svg{
+button[class*=' _primary_'] svg, p[class*=' _recaptchaLegal_']{
   display: none !important;
 }
