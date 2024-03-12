@@ -108,7 +108,7 @@ label[for="_systemfield_resume"] {
   display: block !important;
   position: relative !important;
   z-index: 1 !important;
-  order: 1 !important;
+  order: 0 !important;
 }
 
 .ashby-application-form-field-entry input:not(:focus)::-webkit-input-placeholder,
@@ -156,6 +156,12 @@ div[class^='_option_'] label {
   font-style: normal;
   font-weight: 300;
   line-height: 32px;
+  margin-top: 0 !important;
+  margin-left: 0px !important;
+}
+
+
+div[class^='_option_'] label {
   margin-top: 0 !important;
   margin-left: 13px !important;
 }
