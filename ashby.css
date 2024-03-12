@@ -16,13 +16,7 @@
 
 .ashby-application-form-section-header {border-bottom: 0;}
 .ashby-application-form-section-header h2 {
-  color: #FFF;
-  text-align: center;
-  font-size: 46px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 48px;
-  letter-spacing: -1.5px; 
+  display:none;
 }
 
 .ashby-application-form-container { 
