@@ -198,5 +198,4 @@ button[class*=' _primary_']:hover {
 button[class*=' _primary_'] svg{
   display: none !important;
 }
-
 div#root > p, footer { display: none !important; }
