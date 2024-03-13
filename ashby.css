@@ -145,6 +145,7 @@ div[class^='_file_'] > p {
   background-color: transparent !important;
   padding: 0 !important;
   padding-left: 10px !important;
+  border-color: #DEF858 !important;
 }
 .ashby-application-form-container fieldset label.ashby-application-form-question-title,
 div[class^='_option_'] label {
