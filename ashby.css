@@ -141,7 +141,7 @@ div[class^='_option_'] span[class*=' _checked_'] svg {
   fill: #DEF858 !important;
 }
 
-div[class^='_file_'] p[class*=' _name_'] {
+div[class^='_file_'] p[class^='_name_'] {
   background-color: transparent !important;
   padding: 0 !important;
   padding-left: 10px !important;
