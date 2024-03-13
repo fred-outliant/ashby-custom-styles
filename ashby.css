@@ -54,8 +54,6 @@
 .ashby-application-form-question-description ul li {
   margin-bottom: -10px;
 }
-
-
 .ashby-application-form-field-entry input,
 .ashby-application-form-field-entry textarea{ 
   border:0; 
@@ -71,7 +69,6 @@
   padding: 0;
   padding-bottom: 13px;
 }
-
 .ashby-application-form-field-entry input:hover,
 .ashby-application-form-field-entry input:focus-within,
 .ashby-application-form-field-entry input:focus,
@@ -81,7 +78,6 @@
   outline-color: transparent !important;
   border-bottom-color: #DEF858 !important;
 }
-
 .ashby-application-form-field-entry label {
   position: absolute;
   pointer-events: none;
@@ -103,14 +99,12 @@
   z-index:-1;
   display: none;
 }
-
 label[for="_systemfield_resume"] {
   display: block !important;
   position: relative !important;
   z-index: 1 !important;
   order: 0 !important;
 }
-
 .ashby-application-form-field-entry input:not(:focus)::-webkit-input-placeholder,
 .ashby-application-form-field-entry textarea:not(:focus)::-webkit-input-placeholder {
   /* WebKit browsers */
@@ -131,12 +125,10 @@ label[for="_systemfield_resume"] {
   /* Internet Explorer 10+ */
   color: transparent;
 }
-
 div[class^='_option_'] span{
   background-color: transparent !important;
   border-color: #A6A7A9 !important;
 }
-
 div[class^='_option_'] span[class*=' _checked_']{
   background-color: transparent !important;
   border-color: #DEF858 !important;
@@ -147,7 +139,6 @@ div[class*='_option_'] span[class*=' _checked_'] span {
 div[class^='_option_'] span[class*=' _checked_'] svg {
   fill: #DEF858 !important;
 }
-
 .ashby-application-form-container fieldset label.ashby-application-form-question-title,
 div[class^='_option_'] label {
   color: #A6A7A9; 
@@ -159,22 +150,17 @@ div[class^='_option_'] label {
   margin-top: 0 !important;
   margin-left: 0px !important;
 }
-
-
 div[class^='_option_'] label {
   margin-top: 0 !important;
   margin-left: 13px !important;
 }
-
 button[class*=' _secondary_'],button[class^=' _secondary_'] {
   color: #DEF858 !important;
   border-color: #DEF858 !important;
 }
-
 button[class*=' _secondary_'] svg, button[class^=' _secondary_'] svg {
   fill: #DEF858 !important;
 }
-
 button[class*=' _primary_'] {
   background-color: transparent !important;
   background-image: url(https://fred-outliant.github.io/ashby-custom-styles/ellipse-green.svg);
