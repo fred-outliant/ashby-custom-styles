@@ -214,12 +214,10 @@ div[class^=' _errorsContainer_'] ul li{
 
 div[class^=' _errorsContainer_'] h2{
   font-family: aktiv-grotesk-extended,sans-serif;
-
   font-size: 1.75rem;
   font-weight: 700;
   line-height: 2.24rem;
 }
-
 div[class^='_errorsContainer_'] ul li p{
   font-family: "Fakt Pro 300";
     font-size: 12px;
