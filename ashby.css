@@ -208,11 +208,11 @@ button[class*=' _primary_'] svg{
 }
 div#root > p, footer { display: none !important; }
 
-div[class*=' _errorsContainer_'] ul li{
+div[class^=' _errorsContainer_'] ul li{
   margin: 0 !important;
 }
 
-div[class*=' _errorsContainer_'] ul li p{
+div[class^=' _errorsContainer_'] ul li p{
   font-family: "Fakt Pro 300";
     font-size: 12px;
     font-style: normal;
